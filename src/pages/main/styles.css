@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+* {
+  font-family: 'Inconsolata', monospace;
+}
+body {
+  background: #24243f;
+}
+#pesquisa {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 450px;
+  height: 40px;
+  border-radius: 15px;
+
+}
+
+#pesquisa::-webkit-input-placeholder{
+  text-align: center;
+  font-size: 20px;
+  color: #24243f;
+}
+
+#pesquisa:focus {
+  text-align: center;
+  font-size: 20px;
+  font: bold;
+  color: #24243f;
+}
+
+#pesquisa:defined{
+  text-align: center;
+  font-size: 20px;
+  font: bold;
+  color: #24243f;
+}
+
+img {
+  border-radius: 200px;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  transition: 3s;
+}
+
+img:hover {
+  border-radius: 300px;
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  transition: 3s;
+}
+
+.repositories {
+  
+  margin: 20px auto 0;
+  max-width: 500px;
+  padding: 0 20px;
+}
+
+.repositories #name {
+  background: #e99c9c;
+  border: 1px;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  margin: 20px;
+}
+
+.repositories #repos {
+  background: #e99c9c;
+  border: 1px;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  margin: 20px;
+}
+
+.repositories #inf {
+  background: #e99c9c;
+  border: 1px;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  margin: 20px;
+}
+
