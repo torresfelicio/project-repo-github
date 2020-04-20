@@ -2,18 +2,26 @@
 * {
   font-family: 'Inconsolata', monospace;
 }
+
 body {
   background: #24243f;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
 }
+
 #pesquisa {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
-  width: 450px;
+  margin-bottom: 20px;
+  width: 400px;
   height: 40px;
   border-radius: 15px;
-
 }
 
 #pesquisa::-webkit-input-placeholder{
@@ -38,30 +46,34 @@ body {
 
 img {
   border-radius: 200px;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   display: block;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
-  transition: 3s;
+  margin-bottom: 20px;
+  transition: 1s;
+  background-image: linear-gradient(220deg, #c52e92, #fa9f4e 100%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  padding: 3px;
 }
 
 img:hover {
   border-radius: 300px;
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
-  transition: 3s;
+  transition: 1s;
 }
 
 .repositories {
-  
   margin: 20px auto 0;
-  max-width: 500px;
+  max-width: 700px;
   padding: 0 20px;
 }
 
@@ -69,7 +81,7 @@ img:hover {
   background: #e99c9c;
   border: 1px;
   border-radius: 10px;
-  padding: 30px;
+  padding: 10px;
   text-align: center;
   margin: 20px;
 }
@@ -78,7 +90,7 @@ img:hover {
   background: #e99c9c;
   border: 1px;
   border-radius: 10px;
-  padding: 30px;
+  padding: 5px;
   text-align: center;
   margin: 20px;
 }
@@ -87,8 +99,26 @@ img:hover {
   background: #e99c9c;
   border: 1px;
   border-radius: 10px;
-  padding: 30px;
+  padding: 5px;
   text-align: center;
   margin: 20px;
+  
 }
 
+#button {
+  width: 370px;
+  height: 40px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  background: #db3030;
+  color: aliceblue;
+  font-size: 20px;
+  border-color: #db3030;
+}
+#button:hover{
+  background: rgb(46, 58, 68);
+  border-color: rgb(46, 58, 68);
+}
